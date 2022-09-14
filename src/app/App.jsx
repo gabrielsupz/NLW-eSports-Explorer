@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Sections from '../components/Section'
+import Sections from '../pieces/index.jsx'
 import './App.css'
 
 function App() {
