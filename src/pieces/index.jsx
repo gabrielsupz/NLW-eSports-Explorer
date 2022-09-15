@@ -5,10 +5,12 @@ function Sections() {
   return (
     <S.DivMain>
       <S.HeaderPic>
-        <img
-          src="https://github.com/gabrielsupz.png"
-          alt="Foto do Github do Gabriel"
-        />
+        <div>
+          <img
+            src="https://github.com/gabrielsupz.png"
+            alt="Foto do Github do Gabriel"
+          />
+        </div>
       </S.HeaderPic>
 
       <S.MyGames>
@@ -17,6 +19,17 @@ function Sections() {
           <h2>Meus Jogos</h2>
           <p>Os games que eu mais curto jogar!</p>
           <ul>
+            <li>
+              <a
+                href="https://www.twitch.tv/directory/game/Tale%20of%20Immortal"
+                target="blank"
+              >
+                <img
+                  src="https://static-cdn.jtvnw.net/ttv-boxart/731378006_IGDB-144x192.jpg"
+                  alt="Imagem da Capa do Jogo Tale of Imortal"
+                />
+              </a>
+            </li>
             <li>
               <a
                 href="https://www.twitch.tv/directory/game/SMITE"
@@ -87,18 +100,13 @@ function Sections() {
           </ul>
         </div>
       </S.Streamers>
-      <section className="socialList">
+      <S.SocialLinks>
         <div>
           <h2>Minhas redes</h2>
           <p>Se conecte comigo agora mesmo!</p>
           <ul>
             <li>
-              <a href="">
-                <img src="../../../public/assets/mail.svg" alt="Ícon email" />
-              </a>
-            </li>
-            <li>
-              <a href="">
+              <a href="https://github.com/gabrielsupz" target="blank">
                 <img
                   src="../../../public/assets/github.svg"
                   alt="Ícon github"
@@ -106,7 +114,10 @@ function Sections() {
               </a>
             </li>
             <li>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/gabriel-suptitz-51340124a/"
+                target="blank"
+              >
                 <img
                   src="../../../public/assets/linkedin.svg"
                   alt="Ícon Linkedin"
@@ -114,16 +125,21 @@ function Sections() {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://www.instagram.com/gabriel_supz/" target="blank">
                 <img
                   src="../../../public/assets/instagram.svg"
                   alt="Ícon instagram"
                 />
               </a>
             </li>
+            <li>
+              <a href="mailto:gabrielsuptitz@gmail.com">
+                <img src="../../../public/assets/mail.svg" alt="Ícon email" />
+              </a>
+            </li>
           </ul>
         </div>
-      </section>
+      </S.SocialLinks>
       <a href=""></a>
       <p></p>
       <div className=""></div>
